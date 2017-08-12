@@ -22,7 +22,7 @@ class HashMap
       resize! if @count > num_buckets
       bucket(key).append(key,val)
     end
-end
+  end
 
   def get(key)
     bucket(key).get(key)

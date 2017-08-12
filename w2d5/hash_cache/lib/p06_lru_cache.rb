@@ -15,6 +15,11 @@ class LRUCache
   end
 
   def get(key)
+    if @map.include?(key)
+
+    else
+
+    end 
   end
 
   def to_s
